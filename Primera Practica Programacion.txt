@@ -1,0 +1,59 @@
+Ejercicio A
+	var
+		decimal: peso, estatura, IMC
+	Inicio
+		Escribir ("¿ Cuanto pesas en kg y mides en centímetros ?"
+		Leer (peso,estatura)
+			estatura<-estatura/100
+			IMC<-peso/(estatura)**2
+		Escribir ("índice de masa corporal:",IMC)
+	Fin
+	
+Ejercicio B
+	var	
+		decimal:radio,altura,volumen
+		const:pi<-3.1415926535
+	Inicio
+	volumen<-0
+		Escribir ("¿ Cuanta altura y radio quieres que tenga el volumen del cilíndro ?")
+		Leer (altura,radio)
+			volumen<-pi*altura*radio**2
+		Escribir ("Este es el volumen de tu cilindro:",volumen)
+	Fin
+	
+Ejercicio C
+	var
+		decimal:grados,farenheit
+	Inicio
+	farenheit<-0
+		Escribir ("Escribe en grados la temperatura que quieras transformar a Farenheit")
+		Leer (grados)
+			farenheit<-(grados*9/5)+32
+		Escribir ("grados,"Grados Centígrados equivalen a:",farenheim"grados Farenheim)
+	Fin
+	
+Ejercicio D
+	var	
+		entero:media,x,sumatorio,contador
+	Inicio
+	sumatorio<-0
+	contador<-0
+	media<-0
+		Para (x<-0 hasta 100 INC MOD 3=0)
+			sumatorio<-x+sumatorio
+			contador<-contador+1
+			media<-sumatorio/contador
+		Fin_Para
+		Escribir ("esta es la media aritmética de los números divisibles por 3:",media)
+	Fin				
+					
+				
+		
+			
+			
+			
+			
+			
+			
+			
+			
